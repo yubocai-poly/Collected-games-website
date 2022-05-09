@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+    <meta charset="utf-8">
+    <title>
+        frontpage
+    </title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.staticfile.org/foundation/5.5.3/css/foundation.min.css">
+</head>
+
+
+<body>
+    <nav class="top-bar" data-topbar>
+        <ul class="title-area">
+            <li class="name">
+                <h1>
+                    <a href="https://github.com/frank2002/WebProject"><img class="img1" src=" img/logo.png " alt=" "></a>
+                </h1>
+            </li>
+            <li class="toggle-topbar menu-icon"><a href="#"><span>Menu</span></a></li>
+        </ul>
+
+        <section class="top-bar-section">
+            <ul class="right">
+                <li class="active"><a href="../index.html">Home</a></li>
+                <li><a href="flappy bird/start.html">Flappy Bird</a></li>
+                <li><a href="2048/index.html">2048</a></li>
+                <li>
+                    <a href="flappy bird/start.html"></a>
+                </li>
+                <li>
+                    <a href="Gobang/index.html">GoBang
+                    </a>
+                </li>
+            </ul>
+        </section>
+    </nav>
+
+
+    <div class="main">
+        <br>
+        <div class="p">Choose Your Game!!!</div>
+        <br>
+        <div class="container"><br><br>
+            <a href="2048/index.html">
+                <div class="box1">
+
+                </div>
+            </a>
+
+            <a href="flappy bird/start.html">
+                <div class="box2">
+
+                </div>
+            </a>
+            <style>
+                .div1 {
+                    width: 600px;
+                    height: 2px;
+                    background-color: #ccc;
+                    top: -20px
+                }
+            </style>
+            <div class="div1"></div><br><br>
+
+
+            <a href="https://github.com/frank2002/WebProject">
+                <div class="box3"></div>
+            </a>
+            <a href="Gobang/index.html">
+                <div class="box4">
+                </div>
+            </a>
+
+
+        </div>
+
+    </div>
+    <div class="bottom"><br>-- Copyright by Yubo Cai and Junyuan Wang, Gamehub is Collection website of CSE104 project</div>
+</body>

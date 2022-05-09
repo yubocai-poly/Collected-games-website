@@ -1,0 +1,105 @@
+body {
+    display: flex;
+}
+
+.container {
+    width: 500px;
+    height: 800px;
+    position: absolute;
+    left: 400px;
+    top: 5%;
+}
+
+.cover-left {
+    height: 800px;
+    width: 80px;
+    background-color: rgb(225, 114, 114);
+    position: absolute;
+    z-index: 20;
+    left: 320px;
+    top: 40px;
+}
+
+.cover-right {
+    height: 800px;
+    width: 80px;
+    background-color: rgb(230, 88, 88);
+    position: absolute;
+    z-index: 20;
+    left: 900px;
+    top: 40px;
+}
+
+.cover-top {
+    width: 660px;
+    height: 80px;
+    background-color: rgb(103, 205, 39);
+    position: absolute;
+    z-index: 20;
+    top: -80px;
+    right: -80px;
+}
+
+.sky {
+    background-color: lightblue;
+    width: 500px;
+    height: 650px;
+    position: absolute;
+    text-align: center;
+    z-index: 4;
+}
+
+.ground {
+    background-color: brown;
+    width: 500px;
+    height: 150px;
+    position: absolute;
+    top: 650px;
+    justify-content: center;
+    z-index: 20;
+}
+
+.bird {
+    background-color: rgba(231, 231, 133, 0.759);
+    position: absolute;
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+}
+
+.start {
+    background-color: rgba(113, 113, 105, 0.643);
+    width: 100px;
+    height: 50px;
+    border: 2px solid black;
+    border-radius: 10px;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.pillar {
+    background-image: url('img/pillar.png');
+    width: 60px;
+    height: 300px;
+    z-index: 10;
+    position: absolute;
+}
+
+.top_pillar {
+    background-image: url('img/top_pillar.png');
+    width: 60px;
+    height: 400px;
+    z-index: 10;
+    position: absolute;
+}
+
+.empty {
+    width: 100%;
+    height: 1500px;
+}
+
+.gif-bottom {
+    position: absolute;
+    top: 0px;
+    z-index: 30;
+}

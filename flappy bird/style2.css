@@ -1,0 +1,176 @@
+.whole_part {
+    display: inline-block;
+    position: absolute;
+    width: 660px;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.img1 {
+    height: 40px;
+}
+
+.container {
+    width: 500px;
+    height: 800px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    top: 80px;
+    display: inline-block;
+}
+
+.score {
+    position: absolute;
+    top: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 30px;
+    height: 130px;
+    width: 300px;
+    border: #504b4bb9 solid;
+    border-radius: 20px;
+    background-color: #f2f2f2;
+}
+
+.number {
+    z-index: 60;
+    padding: 10px;
+    font-size: 40px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+}
+
+.cover-left {
+    height: 800px;
+    width: 80px;
+    background-color: white;
+    position: absolute;
+    z-index: 20;
+    left: 0px;
+    top: 80px;
+}
+
+.cover-right {
+    height: 800px;
+    width: 80px;
+    background-color: white;
+    position: absolute;
+    z-index: 20;
+    left: 580px;
+    top: 80px;
+}
+
+.cover-top {
+    width: 660px;
+    height: 175px;
+    background-color: white;
+    position: absolute;
+    z-index: 20;
+    top: -175px;
+    right: -80px;
+    text-align: center;
+}
+
+.sky {
+    background-color: lightblue;
+    width: 500px;
+    height: 650px;
+    text-align: center;
+    z-index: 4;
+}
+
+.ground {
+    background-color: brown;
+    width: 500px;
+    height: 150px;
+    position: absolute;
+    top: 650px;
+    justify-content: center;
+    z-index: 20;
+}
+
+.bird {
+    position: absolute;
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    z-index: 50;
+}
+
+.start {
+    background-color: rgba(113, 113, 105, 0.643);
+    width: 100px;
+    height: 50px;
+    border: 2px solid black;
+    border-radius: 10px;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.pillar {
+    background-image: url('img/pillar.png');
+    width: 60px;
+    height: 300px;
+    z-index: 10;
+    position: absolute;
+}
+
+.top_pillar {
+    background-image: url('img/top_pillar.png');
+    width: 60px;
+    height: 400px;
+    z-index: 10;
+    position: absolute;
+}
+
+.empty {
+    width: 100%;
+    height: 1000px;
+}
+
+.gif-bottom {
+    position: absolute;
+    top: -10px;
+    z-index: 30;
+}
+
+.bottom {
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    width: 100%;
+    z-index: 1000;
+    background: #504b4bb9;
+    height: 80px;
+    top: 1000px;
+    position: relative;
+}
+
+.Gameover_button {
+    font-size: 50px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    position: absolute;
+    z-index: 100;
+    top: 60%;
+    transform: translateY(-50%);
+    left: 50%;
+    transform: translateX(-50%);
+    cursor: pointer;
+    transition: 0.8s;
+    color: #352f2f;
+}
+
+.Gameover_button:hover {
+    background-color: #877d7d;
+}
+
+.display {
+    display: none;
+}

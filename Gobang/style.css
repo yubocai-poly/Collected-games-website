@@ -1,0 +1,67 @@
+.img1 {
+    height: 40px;
+}
+
+canvas {
+    display: block;
+    margin: 50px auto;
+    box-shadow: -2px -2px 2px #EFEFEF, 5px 5px 5px #454040e8;
+    border: 1px solid #aaa;
+    border-radius: 20px;
+    background: url(img/background1.jpg);
+    z-index: -1;
+}
+
+.instruction {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    justify-self: center;
+    width: 600px;
+    height: 170px;
+    border: #aaa solid 2px;
+    border-radius: 20px;
+}
+
+.text {
+    font-size: 25px;
+    font-family: 'Times New Roman', Times, serif;
+    color: #aaa;
+}
+
+.text2 {
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    color: #aaa;
+}
+
+.white {
+    background: radial-gradient(rgb(243, 241, 241) 20px, rgb(105, 105, 99) 30px);
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+}
+
+.black {
+    background: radial-gradient(rgba(25, 23, 23, 0.654) 20px, rgba(133, 133, 129, 0.519) 30px);
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+}
+
+.bottom {
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    width: 100%;
+    z-index: 1000;
+    background: #504b4bb9;
+    height: 80px;
+}

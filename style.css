@@ -1,0 +1,111 @@
+.p {
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgb(117, 101, 101);
+    font-size: 1.6em;
+}
+
+.container {
+    display: block;
+    width: 600px;
+    height: 640px;
+    border: 2px solid #ccc;
+    border-radius: 40px;
+    display: inline-block;
+    background-color: rgb(248, 244, 244);
+}
+
+.img1 {
+    height: 40px;
+}
+
+body {
+    text-align: center;
+    background-color: rgba(64, 55, 55, 0.882);
+}
+
+.main {
+    background: linear-gradient(217deg, rgba(203, 129, 129, 0.8), rgba(255, 0, 0, 0) 70.71%), linear-gradient(127deg, rgba(172, 228, 172, 0.8), rgba(0, 255, 0, 0) 70.71%), linear-gradient(336deg, rgba(210, 49, 228, 0.8), rgba(0, 0, 255, 0) 70.71%);
+    height: 100%;
+}
+
+.box1 {
+    background-image: url(img/2048.png);
+    display: inline-block;
+    width: 200px;
+    height: 200px;
+    border: 2px solid #ccc;
+    border-radius: 5%;
+    margin: 10px;
+    background-color: #eee;
+    cursor: pointer;
+    margin-right: 60px;
+    margin-bottom: 70px;
+    transition: 0.8s;
+}
+
+.box2 {
+    display: inline-block;
+    background-image: url(img/smile.png);
+    width: 200px;
+    height: 200px;
+    border-radius: 10%;
+    margin: 10px;
+    cursor: pointer;
+    margin-left: 50px;
+    margin-bottom: 70px;
+    transition: 0.8s;
+}
+
+.box3 {
+    display: inline-block;
+    background-image: url(img/github.png);
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin: 10px;
+    background-color: #eee;
+    cursor: pointer;
+    margin-right: 60px;
+    transition: 0.8s;
+}
+
+.box4 {
+    display: inline-block;
+    background-image: url(img/Gobang.jpg);
+    width: 200px;
+    height: 200px;
+    border-radius: 20%;
+    margin: 10px;
+    background-color: #eee;
+    cursor: pointer;
+    margin-left: 50px;
+    transition: 0.8s;
+}
+
+.box1:hover {
+    transform: scale(1.1);
+}
+
+.box2:hover {
+    transform: scale(1.1);
+}
+
+.box3:hover {
+    transform: scale(1.1);
+}
+
+.box4:hover {
+    transform: scale(1.1);
+}
+
+.bottom {
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    width: 100%;
+    z-index: 1000;
+    background: #504b4bb9;
+    height: 80px;
+}

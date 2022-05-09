@@ -1,0 +1,126 @@
+header {
+  display: block;
+  text-align: center;
+  margin:30px;
+}
+
+h1 {
+
+  top:50px;
+  font-size: 50px;
+  text-align: center;
+  font-weight: bold;
+  line-height: 50%;
+  margin:20px;
+}
+
+#new, #cheat{
+  display: block;
+  text-align: center;
+  width: 100px;
+  height: 30px;
+  margin: 0 auto;
+
+  background-color: #d1853e;
+  border-radius: 10px;
+}
+
+#new:hover #cheat:hover{
+  background-color: #9a612d;
+}
+
+header p {
+  font-weight: bold;
+}
+
+
+.grid-container {
+  display: block;
+  width: 430px;
+  height: 430px;
+  padding: 20px;
+  
+  margin: 10px auto;
+  background-color: #d8c2ad;
+
+  border-radius: 10px;
+  position: relative;
+  box-sizing: content-box;
+}
+
+.grid-line {
+  display: flex;
+  width: 100%;
+  height: 100px;
+  border-radius: 10px;
+  margin: 0 auto;
+  margin-bottom: 10px;
+  letter-spacing: 0;
+  
+
+  
+}
+
+.grid {
+  display: inline-block;
+  width: 100px;
+  height: 100px;
+  border-radius: 5px;
+  margin: 0 auto;
+
+  background-color: #b6acac82;
+  position: relative;
+  letter-spacing: 0;
+  margin-right: 5px;
+}
+
+#g0-3 {
+
+  margin-right: 0;
+}
+#g1-3 {
+
+  margin-right: 0;
+}
+#g2-3 {
+
+  margin-right: 0;
+}
+#g3-3 {
+
+  margin-right: 0;
+}
+
+body {
+  background-color: #cfac8c;
+}
+
+span {
+  line-height:50px;
+  text-align: center;
+  font-weight: bolder;
+}
+
+.grid {
+  line-height: 100px;
+}
+
+
+#instruction {
+
+  position: relative;
+  top:20px;
+  margin: 10px auto;
+  width: 700px;
+}
+
+#cheat {
+  margin-top: 20px;;
+}
+
+
+
+.img1 {
+  height: 40px;
+}
+

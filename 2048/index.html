@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" href="https://cdn.staticfile.org/foundation/5.5.3/css/foundation.min.css">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="script.js" defer></script>
+    <title> 2048 </title>
+</head>
+
+<body>
+  <nav class="top-bar" data-topbar>
+    <ul class="title-area">
+        <li class="name">
+            <h1>
+                <a href="https://github.com/frank2002/WebProject"><img class="img1" src=" img/logo.png " alt=" "></a>
+            </h1>
+        </li>
+        <li class="toggle-topbar menu-icon"><a href="#"><span>Menu</span></a></li>
+    </ul>
+
+    <section class="top-bar-section">
+        <ul class="right">
+            <li class="active"><a href="../index.html">Home</a></li>
+            <li><a href="../flappy bird/start.html">Flappy Bird</a></li>
+            <li>
+                <a href="../2048/index.html">2048</a>
+            </li>
+            <li>
+                <a href="../Gobang/index.html">GoBang
+                </a>
+            </li>
+        </ul>
+    </section>
+</nav>
+
+
+<header>
+  <h1> 2048 </h1>
+  <input id="new" type="button" value="New Game" onclick="newGame()">
+  <p> Score: <span id="score">0</span>  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Highest Score: <span id="hscore">0</span></p>
+
+</header>  
+
+  <div class="grid-container">
+    <div class="grid-line" id="l0">
+      <span class="grid" id="g0-0"></span>
+      <span class="grid" id="g0-1"></span>
+      <span class="grid" id="g0-2"></span>
+      <span class="grid" id="g0-3"></span>
+    </div>
+
+    <div class="grid-line" id="l1">
+      <span class="grid" id="g1-0"></span>
+      <span class="grid" id="g1-1"></span>
+      <span class="grid" id="g1-2"></span>
+      <span class="grid" id="g1-3"></span>
+    </div>
+
+    <div class="grid-line" id="l2">
+      <span class="grid" id="g2-0"></span>
+      <span class="grid" id="g2-1"></span>
+      <span class="grid" id="g2-2"></span>
+      <span class="grid" id="g2-3"></span>
+    </div>
+
+    <div class="grid-line" id="l3">
+      <span class="grid" id="g3-0"></span>
+      <span class="grid" id="g3-1"></span>
+      <span class="grid" id="g3-2"></span>
+      <span class="grid" id="g3-3"></span>
+    </div>
+  </div>
+
+  <input id="cheat" type="button" value="Cheat button" onclick="cheat()">
+
+  <div id="instruction">  <p>HOW TO PLAY: Use your arrow keys to move the tiles. Tiles with the same number merge into one when they touch. Add them up to reach 2048! <br> You can use the Cheat Button to generate two 1024 directly!</p></div>
+
+
+</body>
+  
+
+</html>

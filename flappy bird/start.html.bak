@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <title>Fly Bird</title>
+    <link rel="stylesheet" type="text/css" href="start.css" />
+    <link rel="stylesheet" type="text/css" href="style2.css" />
+    <link rel="stylesheet" href="https://cdn.staticfile.org/foundation/5.5.3/css/foundation.min.css">
+</head>
+
+<body>
+    <nav class="top-bar" data-topbar>
+        <ul class="title-area">
+            <li class="name">
+                <h1>
+                    <a href="https://github.com/frank2002/WebProject"><img class="img1" src=" img/logo.png " alt=" "></a>
+                </h1>
+            </li>
+            <li class="toggle-topbar menu-icon"><a href="#"><span>Menu</span></a></li>
+        </ul>
+
+        <section class="top-bar-section">
+            <ul class="right">
+                <li class="active"><a href="../menu/index.html">Home</a></li>
+                <li><a href="#">Flappy Bird</a></li>
+                <li>
+                    <a href="../2048/index.html">2048</a>
+                </li>
+                <li>
+                    <a href="../Gobang/index.html">GoBang
+                    </a>
+                </li>
+            </ul>
+        </section>
+    </nav>
+
+    <!-- Begin of the game -->
+    <br>
+    <div class="text">Press the button to start the game!</div>
+    <div class="game_start">
+        <div class="head">
+            <div class="words"></div>
+            <span class="small_bird"></span>
+        </div>
+        <div class="btns">
+            <a href="index2.html"><span class="start_btn"></span></a><br>
+            <span class="submit_btn"></span>
+        </div>
+    </div>
+    <!-- bottom -->
+    <div class="slider">
+
+    </div>
+    </div>
+
+    <div class="bottom"><br>-- Copyright by Yubo Cai and Junyuan Wang, Gamehub is Collection website of CSE104 project</div>
+
+
+</body>
+
+</html>

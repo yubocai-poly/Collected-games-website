@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+    <meta charset="utf-8">
+    <title>GoBang</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.staticfile.org/foundation/5.5.3/css/foundation.min.css">
+
+</head>
+
+<body>
+    <nav class="top-bar" data-topbar>
+        <ul class="title-area">
+            <li class="name">
+                <h1>
+                    <a href="https://github.com/frank2002/WebProject"><img class="img1" src=" img/logo.png " alt=" "></a>
+                </h1>
+            </li>
+            <li class="toggle-topbar menu-icon"><a href="#"><span>Menu</span></a></li>
+        </ul>
+
+        <section class="top-bar-section">
+            <ul class="right">
+                <li class="active"><a href="../menu/index.html">Home</a></li>
+                <li><a href="../flappy bird/start.html">Flappy Bird</a></li>
+                <li><a href="../2048/index.html">2048</a></li>
+                <li><a href="#">GoBang</a></li>
+            </ul>
+        </section>
+    </nav>
+    <br>
+    <div class="instruction">
+        <div class="text">Now is the turn of </div>
+        <div class="turn black"></div>
+        <div class="text2">This game is called GoBang which is a traditional game from China, and you can find the introduction and rules from this
+            <a href="https://en.wikipedia.org/wiki/Gomoku">link</a>, please enjoy it!
+        </div>
+    </div>
+
+    <canvas id="chess" width="600px" height="600px"></canvas>
+    <script src="script.js" charset="utf-8"></script>
+    <br>
+    <div class="bottom"><br>-- Copyright by Yubo Cai and Junyuan Wang, Gamehub is Collection website of CSE104 project</div>
+</body>
